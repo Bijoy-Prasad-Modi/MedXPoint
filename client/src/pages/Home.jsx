@@ -3,7 +3,6 @@ import Hero from "../components/Hero";
 import Biography from "../components/Biography";
 import Departments from "../components/Departments";
 import MessageForm from "../components/MessageForm";
-import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (

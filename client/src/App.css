@@ -587,3 +587,7 @@ input[type="time"]:before {
 footer .logo-img{
   width: 100%;
 }
+/* @font-face {
+  font-family: "Revicons";
+  src: url("./revicons.woff") format("woff");
+} */

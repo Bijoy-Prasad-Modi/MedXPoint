@@ -63,9 +63,9 @@ const Navbar = () => {
           )}
         </div>
 
-        {/* <div className="hamburger" onClick={() => setShow(!show)}>
+        <div className="hamburger" onClick={() => setShow(!show)}>
           <GiHamburgerMenu />
-        </div> */}
+        </div>
       </nav>
     </>
   );

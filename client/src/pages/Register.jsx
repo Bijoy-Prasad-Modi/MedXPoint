@@ -40,7 +40,6 @@ function Register() {
       );
       toast.success(response.data.message);
       setIsAuthenticated(true);
-      //console.log("Login Successful: isAuthenticated =", true);
       navigateTo("/");
     } catch (error) {
       toast.error(error.response.data.message);
