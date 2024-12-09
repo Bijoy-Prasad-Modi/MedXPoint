@@ -37,13 +37,13 @@ const Dashboard = () => {
         { status },
         { withCredentials: true }
       );
-      setAppointments((prevAppointments) => {
-        prevAppointments.map((appointment) => {
+      setAppointments((prevAppointments) =>
+        prevAppointments.map((appointment) =>
           appointment._id === appointmentId
             ? { ...appointment, status }
-            : appointment;
-        });
-      });
+            : appointment
+        )
+      );
       toast.success(data.message);
     } catch (error) {
       toast.error(error.response.data.message);
