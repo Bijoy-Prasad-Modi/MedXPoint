@@ -10,9 +10,9 @@ import userRouter from "./router/userRouter.js";
 import appointmentRouter from "./router/appointmentRouter.js";
 
 const app = express();
-config({ path: "./config/config.env" });
+config({ path: "./config/config.env" }); 
 
-//creating a Middleware to connect frontend
+//creating a Middleware to connect frontend 
 app.use(
   cors({
     origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],
@@ -39,6 +39,6 @@ app.use("/api/v1/appointment", appointmentRouter);
 
 dbConnection();
 
-//make sure to use error middleware at the end, otherwise may cause error
+// using error middleware at the end, otherwise may cause error
 app.use(errorMiddleware);
 export default app;
