@@ -1,5 +1,3 @@
-import React from "react";
-
 const Biography = ({ imageUrl }) => {
   return (
     <div className="container biography">
@@ -10,26 +8,15 @@ const Biography = ({ imageUrl }) => {
         <p>Biography</p>
         <h3>Who We Are</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-          commodi dolore aliquam tenetur, impedit voluptatibus cupiditate?
-          Repellat, suscipit velit voluptatum explicabo accusamus dolores
-          tempore praesentium deserunt quis modi mollitia id magnam similique
-          nulla esse veniam dolorem voluptate aut quod! Voluptas, dicta soluta
-          non nostrum temporibus obcaecati fuga ex sint distinctio?
+          At MedXPoint, we are more than just a healthcare facility — we are a
+          trusted partner in your journey to better health. Built on a
+          foundation of compassion, innovation, and clinical excellence,
+          MedXPoint offers a full spectrum of medical services designed to meet
+          the unique needs of every patient. Our experienced team works together
+          to provide a safe, supportive, and healing environment where your
+          comfort and care come first. We are committed to making quality
+          healthcare accessible, seamless, and stress-free.
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          doloremque voluptate dolorum natus autem nostrum, minus fugit
-          consequatur commodi numquam ab iusto rerum totam, deleniti, a nulla
-          adipisci quaerat at consectetur unde assumenda! Asperiores, ullam?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-          soluta?
-        </p>
-        <p>Lorem, ipsum dolor.</p>
       </div>
     </div>
   );

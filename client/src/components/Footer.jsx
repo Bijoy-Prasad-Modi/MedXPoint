@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { FaPhone, FaLocationArrow } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -72,7 +71,7 @@ const Footer = () => {
             </div>
             <div>
               <MdEmail />
-              <span>zeecare@gmail.com</span>
+              <span>medxpoint@gmail.com</span>
             </div>
             <div>
               <FaLocationArrow />

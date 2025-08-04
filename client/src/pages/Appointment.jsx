@@ -1,4 +1,3 @@
-import React from "react";
 import AppointmentForm from "../components/AppointmentForm";
 import Hero from "../components/Hero";
 
@@ -6,7 +5,7 @@ const Appointment = () => {
   return (
     <>
       <Hero
-        title={"Scheduel Your Appointment | ZeeCare Medical Institute"}
+        title={"Scheduel Your Appointment | MedXPoint Medical Institute"}
         imageUrl={"/signin.png"}
       />
       <AppointmentForm />

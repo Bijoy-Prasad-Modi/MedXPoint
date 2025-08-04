@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { Context } from "../main";
 import { Navigate, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -42,7 +42,7 @@ const Login = () => {
     <>
       <div className="container form-component ">
         <img src="/logo.png" alt="logo" className="logo" />
-        <h1 className="form-title">Welcome to Zeecare</h1>
+        <h1 className="form-title">Welcome to MedXPoint</h1>
         <p>Only Admins are allowed to access these resources</p>
         <form onSubmit={handleLogin}>
           <input

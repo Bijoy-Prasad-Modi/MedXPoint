@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -14,7 +13,7 @@ const Departments = () => {
     },
     {
       name: "Cardiology",
-      imageUrl: "/departments/cardio.jpg",
+      imageUrl: "/departments/cardio.jpeg",
     },
     {
       name: "Neurology",
@@ -26,11 +25,11 @@ const Departments = () => {
     },
     {
       name: "Radiology",
-      imageUrl: "/departments/radio.jpg",
+      imageUrl: "/departments/radio.webp",
     },
     {
       name: "Physical Therapy",
-      imageUrl: "/departments/therapy.jpg",
+      imageUrl: "/departments/therapy.jpeg",
     },
     {
       name: "Dermatology",

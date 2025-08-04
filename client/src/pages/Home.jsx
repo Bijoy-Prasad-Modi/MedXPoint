@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "../components/Hero";
 import Biography from "../components/Biography";
 import Departments from "../components/Departments";
@@ -8,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Hero
-        title={"Welcome to Medicare | Your Favorite Healthcare Provider"}
+        title={"Welcome to MedXPoint | Where Your Health Comes First"}
         imageUrl={"/hero.png"}
       />
       <Biography imageUrl={"/about.png"} />
